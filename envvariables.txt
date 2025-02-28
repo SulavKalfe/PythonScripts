@@ -1,0 +1,30 @@
+this file tells you how your .env file should look like incase i haven't provided you
+BROWSER_PATH="path/to/your/browser.exe"
+APP_PATH="
+path/to/your/app1.exe;
+path/to/your/app2.exe;
+path/to/your/app3.exe;
+"
+APP_PATH2="path/to/your/app4.exe" # i'm using this one cause pycharm was throwing a tantrum
+ENV_LOCATION="path/to/your/env/directory/.env"
+SITE_LINKS="sitelink1;
+sitelink2;
+sitelink3;
+sitelink4;
+sitelink5;
+sitelink6;
+sitelink7;
+sitelink8;
+sitelink9;
+sitelink10
+"
+CONTINUE="
+sitelink1;
+sitelink2
+"
+ALIAS_LOCATION="path/to/your/alias.bat"
+DIR_LOCATION=directory/which/you/want/to/use
+ENTRYPOINT_DATA="" # it has commands that you use in entrypoint.sh it is a one line variable seperated by \n for new lines
+MODULE_NAMES="" # similar to variable above
+SQL_DATA="" # similar to variable above this one contains \t and \n on mine for indentation and newlines respectively
+DOCKERFILE_DATA='' # similar to entrypoint_data only difference is use single quote in this one as command has double quote in it
