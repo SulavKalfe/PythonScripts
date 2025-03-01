@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # i suggest copying the docker-compose file yourself due to how indentation sensitive and long that shit is
     # i could copy and paste that shit right now i dont know whether ill do that or not
     with open("docker-compose.yml", "w") as file6:
-        pass
+        file6.write(os.getenv("COMPOSE_DATA").replace("\\n", "\n"))
 
     with open("requirements.txt", "w") as file7:
         file7.write(os.getenv("MODULE_NAMES"))
