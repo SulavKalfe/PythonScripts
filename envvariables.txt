@@ -28,3 +28,4 @@ ENTRYPOINT_DATA="" # it has commands that you use in entrypoint.sh it is a one l
 MODULE_NAMES="" # similar to variable above
 SQL_DATA="" # similar to variable above this one contains \t and \n on mine for indentation and newlines respectively
 DOCKERFILE_DATA='' # similar to entrypoint_data only difference is use single quote in this one as command has double quote in it
+COMPOSE_DATA='' # data of docker-compose.yml also just found out that tab has 3 spaces and .yml files works with 2 spaces fuck you whoever thought of that
