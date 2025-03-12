@@ -105,4 +105,15 @@ REM ris= reverse image search
 doskey ris=start /b reverseimagesearch.py ^& exit
 
 REM cdp= create django project
-doskey cdp= createdjangoproject.py
+doskey cdp=createdjangoproject.py
+
+REM rst= restart
+doskey rst=restartdesktop.py r
+
+REM sd= shutdown
+doskey sd=restartdesktop.py s
+
+doskey test=start /b test.py ^& exit
+
+REM ana= add new alias
+doskey ana=start /b addnewalias.py ^& exit
